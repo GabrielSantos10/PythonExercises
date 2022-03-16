@@ -1,0 +1,5 @@
+nome = str(input('Seu nome completo'))
+a = nome.lower()
+b = a.count('silva')
+c = b.__bool__()
+print('Seu nome tem a plavra Silva? ', c)

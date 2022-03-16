@@ -1,0 +1,5 @@
+cid = str(input('Nome da sua cidade'))
+a = cid.lower()
+b = a.count('santo')
+c = b.__bool__()
+print(c)

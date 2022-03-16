@@ -1,0 +1,7 @@
+frase = str(input('Escreva um texto')).lower().split()
+cont = frase.count('a')
+pos1 = frase.find(('a')+1)
+pos2 = frase.rfind(('a')+1)
+print('a palavra A apareceu {}' .format(cont))
+print('ela apareceu primeiro na {}° posição' .format(pos1))
+print('ela apareceu por ultimo na {}° posição' .format(pos2))
