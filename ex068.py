@@ -1,10 +1,11 @@
 from random import randint
-
+from os import system
+system('cls')
 while True:
     j = int(input('Diga um valor: '))
     c = randint(0, 10)
     t = j + c
-    tipo = ''
+    tipo = 'm'
     v = 0
     while tipo not in 'PI':
         tipo = str(input('Par ou Ímpar?[P/I] ')).strip().upper()[0]
