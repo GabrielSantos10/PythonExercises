@@ -17,7 +17,7 @@ while True:
     sexo = str(input()).upper()
     while sexo not in 'MF':
         sexo = str(input('Valor errado, insira novamente: ')).upper()[0]
-    if sexo != 'F' and idade <= 18:
+    if sexo != 'F' and idade < 20:
         Fem += 1
     if sexo == 'M':
         Mas += 1
