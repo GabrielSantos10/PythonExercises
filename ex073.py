@@ -1,0 +1,10 @@
+from os import system
+
+
+system('cls')
+a = ('AMÉRICA-MGATHLETICO-PR','ATLÉTICO-GOATLÉTICO-MG','AVAÍ','BOTAFOGO','BRAGANTINO','CEARÁ','CORINTHIANS','CORITIBA','CUIABÁ','FLAMENGO','FLUMINENSE','FORTALEZA','GOIÁS','INTERNACIONAL','JUVENTUDE','PALMEIRAS','SANTOS','SÃO PAULO')
+print(f'''A) {a[0:5]}
+B){a[-5:]}
+C){sorted(a)}
+D){a.index('CORINTHIANS')}
+''')
