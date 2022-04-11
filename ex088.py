@@ -1,5 +1,6 @@
 from random import randint
 from os import system
+from time import sleep
 
 
 system('cls')
@@ -16,5 +17,6 @@ for i in range(0, n):
         sena.append(l)
     jogo.append(sena[:])
     sena = list()
-    print(jogo[i])    
+    print(jogo[i])
+    sleep(1)    
 print('Boa Sorte')
